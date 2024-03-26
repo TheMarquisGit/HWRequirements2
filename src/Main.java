@@ -64,6 +64,13 @@ public class Main {
         System.out.println("Если худеть в среднем от 250 до 500 грамм в день, то 7кг уйдёт за " + midLose + " день");
 
         //Задача8
-
+        int masha = 67760, denis = 83690, kristina = 76230;
+        int yearMasha = masha * 12, yearDenis = denis * 12, yearKristina = kristina * 12;
+        masha = masha / 10 + masha;
+        denis = denis / 10 + denis;
+        kristina = kristina / 10 + kristina;
+        System.out.println("Маша теперь получает " + masha + " рублей. Годовой доход вырос на " + (masha * 12 - yearMasha) + " рубля");
+        System.out.println("Денис теперь получает " + denis + " рублей. Годовой доход вырос на " + (denis * 12 - yearDenis) + " рублей");
+        System.out.println("Кристина теперь получает " + kristina + " рубля. Годовой доход вырос на " + (kristina * 12 - yearKristina) + " рублей");
     }
 }

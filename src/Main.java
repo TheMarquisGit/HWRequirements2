@@ -51,8 +51,8 @@ public class Main {
         byte banana = 80, milk100 = 105, iceCream = 100, egg = 70;
         short recipe = (short) (banana * 5 + milk100 * 2 + iceCream * 2 + egg * 4);
         byte kiloRecipe = (byte) (recipe / 1000);
-        System.out.println("Спортзавтрак в граммах: " + recipe);
-        System.out.println("Спортзавтрак в килограммах: " + kiloRecipe);
+        System.out.println("Спортзавтрак в граммах: " + recipe + "г.");
+        System.out.println("Спортзавтрак в килограммах: " + kiloRecipe + "кг.");
 
         //Задача7
         byte weightKg = 7;
